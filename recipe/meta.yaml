@@ -10,7 +10,7 @@ source:
   sha256: 2488f1105ba8008996b4f6a0df5c556c657c733a47a422ea3f2e59115c051758
 
 build:
-  number: 1
+  number: 2
   skip: true  # [not linux]
 
 requirements:
@@ -20,7 +20,7 @@ requirements:
     - make
     - cmake
   host:
-    - qt >=5.7.1
+    - qt-main >=5.7.1
 
 test:
   commands:
